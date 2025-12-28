@@ -20,7 +20,22 @@
         "height": 700
       },
       "resizable": true
-    }
+    },
+    "about": "Browse and install zOS applications from the official app catalog.",
+    "help": [
+      "Browse categories or search",
+      "Click Get to install",
+      "Installed apps appear in Launchpad"
+    ],
+    "docs": "https://zos-apps.github.io/appstore",
+    "site": "https://github.com/zos-apps/appstore",
+    "features": [
+      "Browse by category",
+      "Search apps",
+      "One-click install",
+      "App updates",
+      "Reviews & ratings"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +68,13 @@
     "appstore",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
