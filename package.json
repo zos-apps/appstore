@@ -35,7 +35,26 @@
       "One-click install",
       "App updates",
       "Reviews & ratings"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/appstore"
+    },
+    "featured": false,
+    "tags": [
+      "system",
+      "utility",
+      "appstore"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/appstore/issues",
+    "changelog": "https://github.com/zos-apps/appstore/releases"
   },
   "scripts": {
     "build": "tsup",
