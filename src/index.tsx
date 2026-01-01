@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 
 interface AppStoreProps {
   onClose: () => void;
@@ -96,7 +96,7 @@ const APP_REGISTRY: App[] = [
 
 const CATEGORIES = ['All', 'Games', 'Creative', 'Developer', 'Music', 'Productivity', 'Social', 'Media', 'System'];
 
-const AppStore: React.FC<AppStoreProps> = ({ onClose }) => {
+const AppStore: React.FC<AppStoreProps> = ({ onClose: _onClose }) => {
   const [apps, setApps] = useState<App[]>(APP_REGISTRY);
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState('All');
